@@ -1,4 +1,24 @@
 # the problem :
+
+#### brief description
+the problem is that when I add this ( 
+```
+styles: {
+          name: 'styles',
+          test: /\.css$/,
+          chunks: 'all',
+          enforce: true,
+         minSize:0, minChunks: 1, reuseExistingChunk: true, enforce: true
+        },
+
+```
+into cacheGroups , no errors gets logged during compilation, the output html is generated with imports ( except for css ) and neither css and javascript works anymore in the compiled output..
+
+
+
+
+
+
 I've tried to keep the configuration minimal,
 the problem In this configuration seems to be 2 : 
 
