@@ -1,0 +1,26 @@
+
+# builds 
+out/
+/build/
+dist/
+build_vars/
+# frontend files
+node_modules
+stats.json
+/package-lock.json
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
