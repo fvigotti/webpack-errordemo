@@ -37,7 +37,9 @@ and css styles are loaded
 
 ### demoes the problem : 
 
-`npm run build:err1-error`
+```console
+npm run build:err1-error
+```
 http://127.0.0.1:8080/
 http://127.0.0.1:8080/b.html
 
